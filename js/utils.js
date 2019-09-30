@@ -51,17 +51,3 @@ window.debounce = debounce
 window.throttle = throttle
 
 window.isMobile = isMobile
-
-function play() {
-  const ap = new APlayer({
-    container: document.getElementById('aplayer'),
-    fixed: true,
-    autoplay: true,
-    audio: [{
-      name: 'Still D.R.E.',
-      artist: 'Dr. Dre / Snoop Dogg',
-      url: 'http://music.163.com/song/media/outer/url?id=17405587.mp3',
-      cover: 'https://p3.music.126.net/CG7BcmrgKNUvC5nZQrlzyg==/109951163890270902.jpg?param=300y300',
-    }]
-  });
-}
